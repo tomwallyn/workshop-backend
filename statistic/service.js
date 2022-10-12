@@ -9,7 +9,8 @@ const getPresentUser = async () => {
     return { 
         'present' : present.size, 
         'absent' : absent.size,
-        'pourcent' : pourcent
+        'pourcent' : pourcent,
+        'pourcent_display' : `${pourcent*100}%`
     }
 }
 

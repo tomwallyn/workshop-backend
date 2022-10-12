@@ -9,7 +9,7 @@ admin.initializeApp({
     databaseURL: "https://workshop-125db-default-rtdb.europe-west1.firebasedatabase.app"
 });
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 const statistic = require("./statistic/route");
 
